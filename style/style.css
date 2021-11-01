@@ -1,0 +1,100 @@
+html { font-size: 62.5%; } 
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Big Shoulders Display, Lexend Deca, Arial;
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+.comp {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: auto;
+    background-color: aqua;
+    margin: 5em auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.typeContainer {
+    padding: 3em;
+    flex: 1 1 30em;
+}
+
+.typeContainer h1{
+    font-family: Big Shoulders Display;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 2rem auto;
+    color: #fff;
+}
+
+.typeContainer p {
+    font-family: Lexend Deca;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    font-family: Lexend Deca;
+    border: none;
+    padding: 1rem 3rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedans button {
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+}
+
+.sedans button:active {
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs button {
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+}
+
+.suvs button:active {
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+}
+
+.lux {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.lux button  {
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+}
+
+.lux button:active {
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+}

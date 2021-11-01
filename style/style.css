@@ -32,7 +32,7 @@ body {
     font-family: Big Shoulders Display;
     font-size: 4rem;
     font-weight: 700;
-    margin: 2rem auto;
+    margin: 2rem auto 3rem auto;
     color: #fff;
 }
 
@@ -48,10 +48,11 @@ button {
     font-family: Lexend Deca;
     border: none;
     padding: 1rem 3rem;
-    margin-bottom: 1rem;
     border-radius: 20px;
     background-color: hsl(0, 0%, 95%);
     cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid white;
 }
 
 .sedans {
@@ -65,7 +66,6 @@ button {
 
 .sedans button:active {
     background-color: transparent;
-    border: 2px solid white;
     color: #fff;
 }
 
@@ -80,7 +80,6 @@ button {
 
 .suvs button:active {
     background-color: transparent;
-    border: 2px solid white;
     color: #fff;
 }
 
@@ -95,6 +94,5 @@ button {
 
 .lux button:active {
     background-color: transparent;
-    border: 2px solid white;
     color: #fff;
 }
